@@ -1,0 +1,9 @@
+altgraph
+evdev
+getmac
+monitoruser
+netifaces
+pip-chill
+pytesseract
+requests
+sysinfo
