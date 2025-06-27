@@ -110,6 +110,7 @@ class ServiceHttpRequests:
 
             else:
                 screenshot_value = True
+                self.set_screenshot_value(screenshot_value)
                 logging.error("Unable to send  Status Code: %s, Response: %s", response.status_code, response.reason)
         except requests.exceptions.RequestException as ex:
             logging.error("Exception while sending screennshot value %s", ex)
